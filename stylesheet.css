@@ -35,6 +35,10 @@
     padding: 0;
   }
   
+  em {
+    font-size: xx-large;
+  }
+
   a {
     text-decoration: none;
     color: var(--c-txt-white);
@@ -48,14 +52,13 @@
     display: flex;
     justify-content: center;
   }
-
   
   .sectionCenter {
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
   }
-  
+
   /* First section */
   
   .wrapper:first-of-type {
@@ -246,19 +249,13 @@ padding: 10em;
   
   #thirdWrapper {
     padding: 15rem;
-    background-image: url(Resources/Mori.jpg);
+    background-image: url(Resources/morixsuisei.jpg);
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: brightness(1.5);
-  }
-  
-  #third {
-    gap: 2rem;
-    color: var(--c-darkcolor);
   }
   
   #third h3 {
